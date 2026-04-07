@@ -101,3 +101,70 @@ h6 {
   line-height: 1.1;
   text-wrap: balance;
 }
+
+
+.resume-header {
+  margin-bottom: 2rem;
+}
+
+.resume-header p {
+  margin: 0.25rem 0 0 0;
+  color: oklch(45% 3% 200);
+}
+
+section {
+  margin-block: 2rem;
+}
+
+section h2 {
+  border-bottom: 1px solid oklch(80% 3% 200);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+section article {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.25rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+section article h3 {
+  margin: 0;
+}
+
+section article p {
+  margin: 0;
+}
+
+section article time {
+  color: oklch(45% 3% 200);
+}
+
+section article > p:last-of-type {
+  justify-self: end;
+  white-space: nowrap;
+}
+
+section article ul {
+  grid-column: 1 / -1;
+  margin: 0.5rem 0 0 1.25rem;
+  padding: 0;
+}
+
+section article a {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+section article a:hover {
+  text-decoration: underline;
+}
+
+.resume-header h1 {
+  margin-bottom: 0.2em;
+}
+
+ul {
+  padding-left: 1.25rem;
+}

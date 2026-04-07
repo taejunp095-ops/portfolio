@@ -5,7 +5,7 @@ html {
 
 body {
   font: 100%/1.5 system-ui;
-  max-width: 65ch;
+  max-width: 100ch;
   margin-inline: auto;
   padding-inline: 1rem;
 }

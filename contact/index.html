@@ -17,31 +17,28 @@
 </nav>
     <h1>Contact</h1>
 
-    <form action="mailto:tjp2463@gmail.com" method="POST" enctype="text/plain">
-
+    <form action="mailto:you@example.com" method="post" enctype="text/plain">
   <label>
-    Your Email:
-    <input name="email" type="email" required>
+    Name:
+    <input type="text" name="name">
   </label>
 
-  <br><br>
+  <label>
+    Email:
+    <input type="email" name="email">
+  </label>
 
   <label>
     Subject:
-    <input name="subject" required>
+    <input type="text" name="subject">
   </label>
-
-  <br><br>
 
   <label>
     Message:
-    <textarea name="body" rows="5" cols="30" required></textarea>
+    <textarea name="message"></textarea>
   </label>
 
-  <br><br>
-
-  <button>Send</button>
-
+  <button type="submit">Send</button>
 </form>
 </body>
 </html>

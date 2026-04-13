@@ -1,6 +1,7 @@
 html {
   --color-accent: oklch(65% 50% 0);
   accent-color: var(--color-accent);
+  color-scheme: light dark;
 }
 
 body {
@@ -8,15 +9,16 @@ body {
   max-width: 100ch;
   margin-inline: auto;
   padding-inline: 1rem;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 img {
   max-width: 100%;
   height: auto;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 nav ul,
@@ -27,7 +29,8 @@ nav li {
 nav {
   display: flex;
   margin-bottom: 1rem;
-  border-bottom: 1px solid oklch(80% 3% 200);
+  --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom: 1px solid var(--border-color);
 }
 
 nav a {
@@ -39,7 +42,7 @@ nav a {
 }
 
 nav a.current {
-  border-bottom: 0.4em solid oklch(80% 3% 200);
+  border-bottom: 0.4em solid var(--border-color);
   padding-bottom: 0.1em;
 }
 
@@ -63,12 +66,25 @@ form label {
 
 input,
 textarea,
-button {
+button,
+select {
   font: inherit;
 }
 
 button {
   grid-column: 1 / -1;
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  z-index: 1000;
 }
 
 .projects {
@@ -101,7 +117,6 @@ h6 {
   line-height: 1.1;
   text-wrap: balance;
 }
-
 
 .resume-header {
   margin-bottom: 2rem;
@@ -167,34 +182,4 @@ section article a:hover {
 
 ul {
   padding-left: 1.25rem;
-}
-
-
-html {
-  color-scheme: light dark;
-}
-
-/* Dark mode friendly border */
-nav {
-  --border-color: oklch(50% 10% 200 / 40%);
-  border-bottom: 1px solid var(--border-color);
-}
-
-.color-scheme {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 80%;
-  font-family: inherit;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  z-index: 1000;
-}
-
-select,
-input,
-textarea,
-button {
-  font: inherit;
 }

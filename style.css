@@ -54,7 +54,7 @@ form {
   gap: 1em;
 }
 
-label {
+form label {
   display: grid;
   grid-template-columns: subgrid;
   grid-column: 1 / -1;
@@ -180,10 +180,21 @@ nav {
   border-bottom: 1px solid var(--border-color);
 }
 
-/* Switch position */
 .color-scheme {
   position: absolute;
   top: 1rem;
   right: 1rem;
   font-size: 80%;
+  font-family: inherit;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  z-index: 1000;
+}
+
+select,
+input,
+textarea,
+button {
+  font: inherit;
 }

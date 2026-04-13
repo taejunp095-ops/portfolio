@@ -8,7 +8,7 @@ function $$(selector, context = document) {
 const BASE_PATH =
   location.hostname === "localhost" || location.hostname === "127.0.0.1"
     ? "/"
-    : "/website/"; // change to your repo name
+    : "/portfolio/"; // change to your repo name
 
 
 const pages = [

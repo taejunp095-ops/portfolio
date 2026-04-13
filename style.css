@@ -168,3 +168,22 @@ section article a:hover {
 ul {
   padding-left: 1.25rem;
 }
+
+
+html {
+  color-scheme: light dark;
+}
+
+/* Dark mode friendly border */
+nav {
+  --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Switch position */
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+}

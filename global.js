@@ -48,8 +48,8 @@ for (let p of pages) {
 }
 
 
-document.body.insertAdjacentHTML(
-  "afterbegin",
+nav.insertAdjacentHTML(
+  "afterend",
   `
   <label class="color-scheme">
     Theme:

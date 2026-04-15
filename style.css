@@ -76,15 +76,17 @@ button {
 }
 
 .color-scheme {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
   font-size: 80%;
   font-family: inherit;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  z-index: 1000;
+}
+
+.color-scheme select {
+  font: inherit;
 }
 
 .projects {

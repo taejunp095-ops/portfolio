@@ -13,6 +13,8 @@ if (projects && projectsContainer) {
 // ---------- GitHub ----------
 const githubData = await fetchGitHubData('taejunp095-ops'); // change if needed
 
+console.log('githubData:', githubData);
+
 const profileStats = document.querySelector('#profile-stats');
 
 if (githubData && profileStats) {

@@ -1,62 +1,86 @@
 [
-    {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores aperiam ducimus, non nesciunt porro animi officiis explicabo soluta dolore accusamus quaerat labore nobis! Tempore vero molestias voluptate minima animi ipsa."
-    },
-    {
-        "title": "Inventore quae necessitatibus dolor.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quia illum, maiores cum ad incidunt itaque omnis unde nihil quaerat dolore? Voluptatibus minima aut reiciendis, quos laboriosam illum maxime repudiandae, in totam sequi, dicta soluta numquam saepe tempora dignissimos?"
-    },
-    {
-        "title": "Commodi omnis neque accusamus!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Animi, natus est quam sunt at iure enim ipsa ad neque placeat. Voluptates animi a aliquam, nulla, dolor illum ut fuga, expedita debitis impedit similique explicabo culpa quod fugiat quos."
-    },
-    {
-        "title": "Vero dignissimos iste placeat!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quisquam possimus eaque optio ea sapiente? Et, soluta. Sapiente officia praesentium earum incidunt iusto quibusdam illo laboriosam error quo, nesciunt atque dolor facere accusantium fugit placeat aspernatur doloremque rem facilis."
-    },
-    {
-        "title": "Ipsum voluptatum illum sapiente?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Libero vel non quam sit dicta? Consequuntur, quia eum eos qui ad ex debitis aut veritatis, dicta maxime modi natus alias, voluptates aliquid esse minima quasi molestiae itaque eveniet voluptate!"
-    },
-    {
-        "title": "Voluptatum vero assumenda eveniet!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Accusantium labore veritatis rerum obcaecati doloremque, molestiae eos maxime officia ipsa mollitia delectus, repellendus in reprehenderit aliquid consequuntur expedita alias, iure earum vel reiciendis quaerat! Quod rerum veritatis exercitationem possimus!"
-    },
-    {
-        "title": "Ipsam laboriosam ipsa est!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ab inventore deleniti dignissimos quia reiciendis sequi, ad perspiciatis enim quod eius iure, quibusdam velit a itaque consequuntur voluptas ex. Dolorem unde esse impedit cum hic officiis voluptatibus numquam eaque!"
-    },
-    {
-        "title": "Voluptatibus fuga asperiores ipsa!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Repellat architecto doloribus voluptatem assumenda, earum saepe, debitis aspernatur labore dolore, iure impedit? Ipsam facilis nisi iusto hic perferendis nihil rem dolore neque in? Eveniet similique aliquam tenetur veritatis cumque."
-    },
-    {
-        "title": "Harum mollitia odio esse.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Et sed, id unde ex vero est vel? Explicabo fuga tempore magnam a earum, error ea quae beatae nobis. Dolor nisi rem totam natus velit impedit ullam, cupiditate eum. At."
-    },
-    {
-        "title": "Aut tempora placeat nemo?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Qui facere delectus voluptatibus neque fuga eligendi tempora ex rerum ullam, nobis ipsam magni non expedita voluptatum eius esse nemo, illum amet quae architecto mollitia? Quae deserunt magni explicabo asperiores."
-    },
-    {
-        "title": "Sequi incidunt exercitationem voluptates!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Illo perspiciatis esse expedita voluptatum doloremque architecto. Magnam molestias hic accusantium unde eos iusto mollitia, impedit recusandae beatae qui quisquam fuga, est deleniti facere saepe cumque non sunt labore nulla."
-    },
-    {
-        "title": "Est dolorum repellendus commodi!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Commodi itaque deserunt unde aliquam voluptatem illum eos qui a sapiente, reiciendis odio accusamus ipsam ullam atque libero minus adipisci neque maiores ducimus assumenda fuga ratione! Alias iste eum dicta."
-    }
+  {
+    "title": "Roomie",
+    "year": "2026",
+    "image": "images/empty.svg",
+    "description": "Built a roommate matching platform using survey data and similarity scoring to pair compatible users. Focused on data processing and user preference modeling."
+  },
+  {
+    "title": "LoLCarry Win/Loss Predictor",
+    "year": "2026",
+    "image": "images/empty.svg",
+    "description": "Developed a machine learning model to predict League of Legends match outcomes using player stats and historical performance data."
+  },
+  {
+    "title": "Portfolio Website",
+    "year": "2026",
+    "image": "images/empty.svg",
+    "description": "Built a personal website using HTML, CSS, and JavaScript."
+  },
+  {
+    "title": "CGM Data Analysis",
+    "year": "2025",
+    "image": "images/empty.svg",
+    "description": "Analyzed glucose trends using Python and pandas."
+  },
+  {
+    "title": "Matrix Multiplication Optimization",
+    "year": "2025",
+    "image": "images/empty.svg",
+    "description": "Implemented cache-optimized matrix multiplication with Numba."
+  },
+  {
+    "title": "Grocery Data Visualization",
+    "year": "2025",
+    "image": "images/empty.svg",
+    "description": "Visualized food processing levels across stores."
+  },
+  {
+    "title": "Series Data Structure (Java)",
+    "year": "2024",
+    "image": "images/empty.svg",
+    "description": "Implemented a custom Series class with linked list backend."
+  },
+  {
+    "title": "Statistical Inference Project",
+    "year": "2024",
+    "image": "images/empty.svg",
+    "description": "Performed hypothesis testing and confidence interval analysis."
+  },
+  {
+    "title": "GitHub API Dashboard",
+    "year": "2024",
+    "image": "images/empty.svg",
+    "description": "Fetched and displayed GitHub profile stats using JavaScript."
+  },
+  {
+    "title": "SQL Database Project",
+    "year": "2023",
+    "image": "images/empty.svg",
+    "description": "Designed and queried relational databases using SQL."
+  },
+  {
+    "title": "Machine Learning Model",
+    "year": "2022",
+    "image": "images/empty.svg",
+    "description": "Built predictive models using scikit-learn."
+  },
+  {
+    "title": "Data Cleaning Pipeline",
+    "year": "2021",
+    "image": "images/empty.svg",
+    "description": "Processed raw datasets into clean structured data."
+  },
+  {
+    "title": "Visualization Dashboard",
+    "year": "2020",
+    "image": "images/empty.svg",
+    "description": "Created interactive charts using matplotlib and seaborn."
+  },
+  {
+    "title": "Placeholder Project",
+    "year": "2019",
+    "image": "images/empty.svg",
+    "description": "Temporary project for visualization purposes."
+  }
 ]

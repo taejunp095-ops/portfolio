@@ -2,85 +2,85 @@
   {
     "title": "Roomie",
     "year": "2026",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/roomie/300/200",
     "description": "Built a roommate matching platform using survey data and similarity scoring to pair compatible users. Focused on data processing and user preference modeling."
   },
   {
     "title": "LoLCarry Win/Loss Predictor",
     "year": "2026",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/lolcarry/300/200",
     "description": "Developed a machine learning model to predict League of Legends match outcomes using player stats and historical performance data."
   },
   {
     "title": "Portfolio Website",
     "year": "2026",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/portfolio/300/200",
     "description": "Built a personal website using HTML, CSS, and JavaScript."
   },
   {
     "title": "CGM Data Analysis",
     "year": "2025",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/cgm/300/200",
     "description": "Analyzed glucose trends using Python and pandas."
   },
   {
     "title": "Matrix Multiplication Optimization",
     "year": "2025",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/matmul/300/200",
     "description": "Implemented cache-optimized matrix multiplication with Numba."
   },
   {
     "title": "Grocery Data Visualization",
     "year": "2025",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/grocery/300/200",
     "description": "Visualized food processing levels across stores."
   },
   {
     "title": "Series Data Structure (Java)",
     "year": "2024",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/series/300/200",
     "description": "Implemented a custom Series class with linked list backend."
   },
   {
     "title": "Statistical Inference Project",
     "year": "2024",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/stats/300/200",
     "description": "Performed hypothesis testing and confidence interval analysis."
   },
   {
     "title": "GitHub API Dashboard",
     "year": "2024",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/github/300/200",
     "description": "Fetched and displayed GitHub profile stats using JavaScript."
   },
   {
     "title": "SQL Database Project",
     "year": "2023",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/sql/300/200",
     "description": "Designed and queried relational databases using SQL."
   },
   {
     "title": "Machine Learning Model",
     "year": "2022",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/ml/300/200",
     "description": "Built predictive models using scikit-learn."
   },
   {
     "title": "Data Cleaning Pipeline",
     "year": "2021",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/dataclean/300/200",
     "description": "Processed raw datasets into clean structured data."
   },
   {
     "title": "Visualization Dashboard",
     "year": "2020",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/viz/300/200",
     "description": "Created interactive charts using matplotlib and seaborn."
   },
   {
     "title": "Placeholder Project",
     "year": "2019",
-    "image": "images/empty.svg",
+    "image": "https://picsum.photos/seed/placeholder/300/200",
     "description": "Temporary project for visualization purposes."
   }
 ]

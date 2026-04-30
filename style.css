@@ -232,17 +232,15 @@ ul {
 
 .legend {
   flex: 1;
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
-
   gap: 1em;
 
   list-style: none;
   padding: 1em;
   margin: 0;
 
-  border: 1px solid #ccc;
+  border: 1px solid color-mix(in oklch, canvasText, canvas 80%);
   border-radius: 0.5em;
 }
 
@@ -255,29 +253,30 @@ ul {
 .swatch {
   width: 1em;
   aspect-ratio: 1 / 1;
-
   background-color: var(--color);
-
   border-radius: 0.25em;
-
   display: inline-block;
 }
 
 path {
   cursor: pointer;
-  transition: opacity 0.2s;
+  transition: 300ms;
 }
 
-path:hover {
-  opacity: 0.7;
+#projects-pie-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+.selected {
+  --color: oklch(60% 45% 0);
 }
 
 path.selected {
-  stroke: black;
-  stroke-width: 2;
+  fill: var(--color);
 }
 
 .legend li.selected {
+  color: var(--color);
   font-weight: bold;
 }
 

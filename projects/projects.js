@@ -81,10 +81,11 @@ function updatePieChart() {
     .attr('class', (d) =>
       String(d.year) === String(selectedYear) ? 'selected' : ''
     )
-    .html((d) => `
-      <span class="swatch" style="background-color: ${colors(d.year)}"></span>
-      ${d.year} <em>(${d.count})</em>
-    `);
+    .attr('style', (d) => `--color:${colors(d.year)}`)
+.html((d) => `
+  <span class="swatch"></span>
+  ${d.year} <em>(${d.count})</em>
+`);
 }
 
 searchBar.addEventListener('input', (event) => {

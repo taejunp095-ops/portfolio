@@ -208,3 +208,11 @@ ul {
   margin: 0;
   font-size: 1.5rem;
 }
+
+
+.project-year {
+  font-family: Baskerville, serif;
+  font-variant-numeric: oldstyle-nums;
+  color: gray;
+  margin-top: 0.25em;
+}

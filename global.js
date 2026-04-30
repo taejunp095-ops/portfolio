@@ -1,6 +1,5 @@
 console.log("IT'S ALIVE!");
 
-// helper selector
 function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
 }
@@ -8,7 +7,7 @@ function $$(selector, context = document) {
 const BASE_PATH =
   location.hostname === "localhost" || location.hostname === "127.0.0.1"
     ? "/"
-    : "/portfolio/"; // change to your repo name
+    : "/portfolio/";
 
 
 const pages = [
@@ -26,20 +25,20 @@ document.body.prepend(nav);
 for (let p of pages) {
   let url = p.url;
 
-  // fix relative paths
+  
   url = !url.startsWith("http") ? BASE_PATH + url : url;
 
   let a = document.createElement("a");
   a.href = url;
   a.textContent = p.title;
 
-  // highlight current page
+  
   a.classList.toggle(
     "current",
     a.host === location.host && a.pathname === location.pathname
   );
 
-  // external links → new tab
+  
   if (a.host !== location.host) {
     a.target = "_blank";
   }
@@ -109,6 +108,7 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
       <${headingLevel}>${project.title}</${headingLevel}>
       <img src="${project.image}" alt="${project.title}">
       <p>${project.description}</p>
+      <p class="project-year">${project.year}</p>
     `;
 
     containerElement.appendChild(article);

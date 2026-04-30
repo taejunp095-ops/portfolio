@@ -43,30 +43,32 @@ function updatePieChart() {
     return values.includes(query.toLowerCase());
   });
 
-  const rolledData = d3.rollups(
+  let rolledData = d3.rollups(
     visibleProjectsForPie,
     (v) => v.length,
     (d) => d.year
   );
 
-  const data = rolledData.map(([year, count]) => ({ year, count }));
+  const data = rolledData.map(([year, count]) => {
+    return { value: count, label: year };
+  });
 
-  const sliceGenerator = d3.pie().value((d) => d.count);
+  const sliceGenerator = d3.pie().value((d) => d.value);
   const arcData = sliceGenerator(data);
 
-  colors.domain(data.map((d) => d.year));
+  colors.domain(data.map((d) => d.label));
 
   svg
     .selectAll('path')
     .data(arcData)
     .join('path')
     .attr('d', arcGenerator)
-    .attr('fill', (d) => colors(d.data.year))
+    .attr('fill', (d) => colors(d.data.label))
     .attr('class', (d) =>
-      String(d.data.year) === String(selectedYear) ? 'selected' : ''
+      String(d.data.label) === String(selectedYear) ? 'selected' : ''
     )
     .on('click', (event, d) => {
-      const year = d.data.year;
+      const year = d.data.label;
 
       selectedYear = String(selectedYear) === String(year) ? null : year;
 
@@ -79,13 +81,13 @@ function updatePieChart() {
     .data(data)
     .join('li')
     .attr('class', (d) =>
-      String(d.year) === String(selectedYear) ? 'selected' : ''
+      String(d.label) === String(selectedYear) ? 'selected' : ''
     )
-    .attr('style', (d) => `--color:${colors(d.year)}`)
-.html((d) => `
-  <span class="swatch"></span>
-  ${d.year} <em>(${d.count})</em>
-`);
+    .attr('style', (d) => `--color:${colors(d.label)}`)
+    .html((d) => `
+      <span class="swatch"></span>
+      ${d.label} <em>(${d.value})</em>
+    `);
 }
 
 searchBar.addEventListener('input', (event) => {

@@ -568,13 +568,11 @@ function generateStorySteps() {
             }
           )},
           I made
-          <a href="${d.url}" target="_blank">
-            ${
-              i > 0
-                ? 'another glorious commit'
-                : 'my first glorious commit'
-            }
-          </a>.
+          ${
+            i > 0
+              ? 'another glorious commit'
+              : 'my first glorious commit'
+          }.
         </p>
 
         <p>

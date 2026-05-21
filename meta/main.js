@@ -467,9 +467,7 @@ function onTimeSliderChange() {
   );
 
   commitMaxTime =
-    timeScale.invert(
-      commitProgress
-    );
+    timeScale.invert(commitProgress);
 
   d3.select('#commit-time-display')
     .text(
@@ -489,13 +487,9 @@ function onTimeSliderChange() {
         commitMaxTime
     );
 
-  updateScatterPlot(
-    filteredCommits
-  );
+  updateScatterPlot(filteredCommits);
 
-  updateFileDisplay(
-    filteredCommits
-  );
+  updateFileDisplay(filteredCommits);
 }
 
 function updateFileDisplay(
@@ -607,13 +601,9 @@ function initializeScrollytelling() {
           commitMaxTime
       );
 
-    updateScatterPlot(
-      filteredCommits
-    );
+    updateScatterPlot(filteredCommits);
 
-    updateFileDisplay(
-      filteredCommits
-    );
+    updateFileDisplay(filteredCommits);
 
     d3.select(
       '#commit-time-display'
@@ -633,10 +623,7 @@ function initializeScrollytelling() {
   scroller
     .setup({
       container: '#scrolly-1',
-
-      step:
-        '#scrolly-1 .step',
-
+      step: '#scrolly-1 .step',
       offset: 0.5,
     })
     .onStepEnter(onStepEnter);
